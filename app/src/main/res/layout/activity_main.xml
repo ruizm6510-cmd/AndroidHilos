@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guía: Hilos de Ejecución y Sensores"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="28 Ejercicios Prácticos (SENA / Android)"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnThreads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:text="Bloque 1: Hilos y Corrutinas (Ej. 1 - 6)"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnTouch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:text="Bloque 2: Eventos Táctiles y Gestos (Ej. 7 - 18)"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnSensors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:text="Bloque 3: Sensores Android (Ej. 19 - 28)"
+        android:textSize="16sp"/>
+
+</LinearLayout>

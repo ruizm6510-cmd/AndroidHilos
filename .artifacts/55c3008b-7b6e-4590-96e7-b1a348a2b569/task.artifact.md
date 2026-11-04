@@ -1,0 +1,36 @@
+# Task List: Implementación de los 28 Ejercicios de Hilos y Sensores
+
+- [/] Configurar menú principal y navegación para los 28 ejercicios
+- [x] Implementar Ejercicios 1 a 6 (Hilos y Corrutinas)
+  - [x] Ejercicio 1: Hilo Thread (números 1-10 con retardo de 1s)
+  - [x] Ejercicio 2: ProgressBar y TextView con carga progresiva (0-100)
+  - [x] Ejercicio 3: Tres hilos concurrentes (pares, impares, letras)
+  - [x] Ejercicio 4: Clase MiTarea con operación matemática
+  - [x] Ejercicio 5: Corrutina con mensajes cada segundo
+  - [x] Ejercicio 6: Simulación de sensor con corrutina y botón de parada
+- [x] Implementar Ejercicios 7 a 18 (Eventos Táctiles y Gestos)
+  - [x] Ejercicio 7: Eventos táctiles (ACTION_DOWN, ACTION_MOVE, ACTION_UP)
+  - [x] Ejercicio 8: Coordenadas X e Y en TextView
+  - [x] Ejercicio 9: Vista personalizada con cambio de color al tocar
+  - [x] Ejercicio 10: ImageView arrastrable por pantalla
+  - [x] Ejercicio 11: Vista de dibujo libre (trazos)
+  - [x] Ejercicio 12: GestureDetector (tap, long press, fling)
+  - [x] Ejercicio 13: Detección de múltiples dedos y posiciones
+  - [x] Ejercicio 14: Dibujo simultáneo con varios dedos (colores)
+  - [x] Ejercicio 15: Pellizco (pinch to zoom) in ImageView
+  - [x] Ejercicio 16: Rotación de vista con dos dedos
+  - [x] Ejercicio 17: Lienzo con puntos de color por dedo y desaparición al soltar
+  - [x] Ejercicio 18: Control de imagen (arrastre, pinch, rotación)
+- [x] Implementar Ejercicios 19 a 28 (Sensores Android)
+  - [x] Ejercicio 19: Sensor de proximidad (fondo rojo/verde)
+  - [x] Ejercicio 20: Sensor de luz ambiental (TYPE_LIGHT)
+  - [x] Ejercicio 21: Orientación (acelerómetro + magnetómetro)
+  - [x] Ejercicio 22: Brújula magnética (ImageView rotando con azimut)
+  - [x] Ejercicio 23: Mover círculo inclinando dispositivo (acelerómetro)
+  - [x] Ejercicio 24: Contador/detector de pasos (STEP_COUNTER / STEP_DETECTOR)
+  - [x] Ejercicio 25: Combinación proximidad y luz (negro / blanco)
+  - [x] Ejercicio 26: Detector de sacudidas (shake) con acelerómetro
+  - [x] Ejercicio 27: Detector de posición (boca arriba, boca abajo, vertical)
+  - [x] Ejercicio 28: Panel multisensores (pasos, movimiento, orientación)
+- [x] Verificación y pruebas de compilación del proyecto
+- [x] Crear artefacto de walkthrough

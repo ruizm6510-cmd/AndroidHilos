@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bloque 1: Hilos y Corrutinas"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnEx1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Ejercicio 1: Hilo Thread (1 al 10, retardo 1s)"/>
+
+        <Button
+            android:id="@+id/btnEx2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Ejercicio 2: ProgressBar y carga progresiva"/>
+
+        <Button
+            android:id="@+id/btnEx3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Ejercicio 3: Tres hilos concurrentes"/>
+
+        <Button
+            android:id="@+id/btnEx4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Ejercicio 4: Clase MiTarea matemática"/>
+
+        <Button
+            android:id="@+id/btnEx5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Ejercicio 5: Corrutina con mensajes cada segundo"/>
+
+        <Button
+            android:id="@+id/btnEx6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Ejercicio 6: Simulación de sensor con corrutina"/>
+
+    </LinearLayout>
+</ScrollView>

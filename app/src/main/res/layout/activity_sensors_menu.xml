@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bloque 3: Sensores Android"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <Button android:id="@+id/btnEx19" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="Ejercicio 19: Proximidad (Rojo/Verde)"/>
+        <Button android:id="@+id/btnEx20" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="Ejercicio 20: Luz Ambiental (Lux)"/>
+        <Button android:id="@+id/btnEx21" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="Ejercicio 21: Orientación (Acel+Mag)"/>
+        <Button android:id="@+id/btnEx22" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="Ejercicio 22: Brújula Magnética"/>
+        <Button android:id="@+id/btnEx23" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="Ejercicio 23: Mover Círculo (Inclinación)"/>
+        <Button android:id="@+id/btnEx24" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="Ejercicio 24: Contador de Pasos"/>
+        <Button android:id="@+id/btnEx25" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="Ejercicio 25: Proximidad + Luz (Negro/Blanco)"/>
+        <Button android:id="@+id/btnEx26" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="Ejercicio 26: Detector de Sacudidas (Shake)"/>
+        <Button android:id="@+id/btnEx27" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="Ejercicio 27: Posición del Dispositivo"/>
+        <Button android:id="@+id/btnEx28" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="Ejercicio 28: Panel Multisensores"/>
+
+    </LinearLayout>
+</ScrollView>
